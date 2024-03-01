@@ -129,8 +129,11 @@ select {
 
 }
 .logo-image {
-    background-color: #412722;
     height: 4rem;
+}
+
+.logo-image:hover {
+    opacity: .87;
 }
 
                                 /***     BANNER      ***/   
@@ -196,7 +199,6 @@ select {
 
   .banner__title {
     font-size: 1.756rem;
-    line-height: 1.3rem;
     color: #D39B40;
   }
 
@@ -263,6 +265,14 @@ select {
         display: grid;
         justify-items: center;
         gap: 1.5rem;
+    }
+
+    .cards-content  a {
+        text-decoration: none;
+    }
+
+    .alink p {
+        color: #000;
     }
     
     .card-content__heading {
@@ -344,6 +354,7 @@ select {
         gap: 3rem;
         align-items: center; 
     }
+
     
     .image-content__image {
         aspect-ratio: 1/1 ;
@@ -474,6 +485,28 @@ select {
 
 .card-hv:focus,
 .card-hv:hover {
-    transition: ease 1s;
+    transition-duration: 0.4s;
     transform: translateY(-1rem);
 }
+
+
+.footer a:focus,
+.footer a:hover {
+    color: #f8ab2e;
+}
+
+
+/******  ----------------------BLOGPOST---------------------******/
+
+
+.tbanner {
+    background-image: 
+    linear-gradient(to bottom,#0009 0%,#0009 50% ,transparent 80% ,#fff 100%),
+    url(../images/blog-image-adventurers.jpg);
+    background-position: bottom ;
+    background-size: cover;
+  }
+
+.banner__text a {
+      color: #D39B40;
+    }
