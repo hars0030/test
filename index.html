@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <header>
-        <div class="nav-base">
-
-            <a href="#" class="logo-link">
-                <img src="images/logo-ac.svg" alt="A logo-ac" class="logo-image">
-            </a>
-
+    <header class="nav-base">
+        <div class="container">
+            
+            <h1 class="logo-h1">
+                <a href="#" class="logo-image">
+                    <img src="images/logo-ac.svg" alt="A logo-ac" class="logo-image">
+                </a>
+            </h1>
+            
             <nav>
                 <ul class="nav-ul">
                     <li><a href="#" class="nav-link">About</a></li>
@@ -32,9 +34,8 @@
             <div class="banner__content">
                 <h2 class="banner__title">Welcome to Adventure Co!</h2>
                 <p class="banner__text">An app built for adventurers seeking fame, fortune, and a well organized gameplay experience!
-                    Download the app
                     </p>
-                <a href="#" class="btn btn--secondary">Download the app!</a>
+                <a href="#" class="btn btn--secondary btn--large">Download the app!</a>
             </div>
 
         </div>
@@ -44,7 +45,7 @@
     <main>
 
         <section class="new-cards-background">
-            <div class="card-group__container">
+            <div class="container">
                  <div class="cards-content">
                     <div class="card card-hv">
                         <div class="card-content__image">
@@ -78,7 +79,7 @@
 
         <section class="image-content">
 
-            <div class="split-container">
+            <div class="container">
     
                 <div class="image-content__image">
                     <img src="images/about.jpg" alt="A nice dock on the a lake">
@@ -97,27 +98,28 @@
 
                 <section class="card-group">
 
-                    <div class="container recent-container">
+                    <div class="container">
                 
                             <h2 class="title">Recent Blog Posts</h1>
                              <div class="cards-content">
                     
                                         <a href="blog-post.html" class="alink">
-                                            <div class="spabew card-hv">
+
+                                            <div class="blog-card card-hv">
                                                 <h2 class="card-content__heading">One-Shot Adventures: What They Are, Why We Love Them, and Recommendations</h2>
                                                 <p>By Mike Bernier</p>
                                                                                 </div>
                                         </a>
 
                                     
-                                        <div class="spabew card-hv">
+                                        <div class="blog-card card-hv">
                                             <h2 class="card-content__heading">5 Tips for Running the Death House One-Shot From Curse of Strahd
                                             </h2>
                                             <p>by Jeremy Blum</p>
                                     </div>
 
                                     
-                                        <div class="spabew card-hv">
+                                        <div class="blog-card card-hv">
                                             <h2 class="card-content__heading">How to Mashup D&D Sourcebooks for Versatile Storytelling
                                             </h2>
                                             <p>by Riley Silverman</p>
@@ -131,6 +133,8 @@
             
                     </div>
                 </section>
+
+                <a id="toTopButton" href="#top">To Top</a>
             
 
         
@@ -140,9 +144,9 @@
     
 
     <footer class="footer">
-        <div class="fcontainer">
+        <div class="container">
 
-            <a href="#" class="logo-link">
+            <a href="#" class="footer__logo">
                 <img src="images/logo-ac.svg" alt="A logo-ac" class="logo-image">
             </a>
            
@@ -159,14 +163,13 @@
            <small class="footer__copyright">
                &copy; 2022 Adventure Co-Operative
                
-               <a href="#">Privacy Policy</a>
-               <a href="#">Terms of Service</a>
+               <a class="footer__link" href="#">Privacy Policy</a>
+               <a class="footer__link" href="#">Terms of Service</a>
                
             </small>
         </div>
    </footer>
    
-    
     
 </body>
 </html>
