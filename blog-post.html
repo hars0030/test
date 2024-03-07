@@ -1,108 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog-post</title>
-    <link rel="stylesheet" href="css/main.css" />
-  </head>
-  <body>
-    <header>
-      <div class="nav-base">
-        <a href="#" class="logo-link">
-          <img src="images/logo-ac.svg" alt="A logo-ac" class="logo-image" />
-        </a>
-
-        <nav>
-          <ul class="nav-ul">
-            <li><a href="#" class="nav-link">About</a></li>
-            <li><a href="#" class="nav-link">Blog</a></li>
-            <li><a href="#" class="nav-link">Download</a></li>
-            <li><a href="#" class="nav-link">Sign Up</a></li>
-          </ul>
-        </nav>
-      </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Co.</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="nav-base">
+        <div class="container">
+            
+            <h1 class="logo-h1">
+                <a href="#" class="logo-image">
+                    <img src="images/logo-ac.svg" alt="A logo-ac" class="logo-image">
+                </a>
+            </h1>
+            
+            <nav>
+                <ul class="nav-ul">
+                    <li><a href="#" class="nav-link">About</a></li>
+                    <li><a href="#" class="nav-link">Blog</a></li>
+                    <li><a href="#" class="nav-link">Download</a></li>
+                    <li><a href="#" class="nav-link">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section class="banner tbanner">
-      <div class="container">
-        <div class="banner__content">
-          <h2 class="banner__title lh">
-            One-Shot Adventures: What They Are, Why We Love Them, and
-            Recommendations
-          </h2>
-          <p class="banner__text">
-            By Mike Bernier | Original article from
-            <a
-              href="https://www.dndbeyond.com/posts/1300-one-shot-adventures-what-they-are-why-we-love-them"
-              >DnDBeyond</a
-            >
-          </p>
+    <section class="banner">
+
+        <div class="container">
+
+            <div class="banner__content">
+                <h2 class="banner__title">Welcome to Adventure Co!</h2>
+                <p class="banner__text">An app built for adventurers seeking fame, fortune, and a well organized gameplay experience!
+                    </p>
+                <a href="#" class="btn btn--secondary btn--large">Download the app!</a>
+            </div>
+
         </div>
-      </div>
+
     </section>
 
-    <div class="tags-container">
-      <div class="blog-tag">
-        <span>tags</span>
-        <button class="tag-btn">Dungeon Master Tips</button>
-        <button class="tag-btn">One-Shots</button>
-      </div>
-      <div class="para">
-        <p class="para-text">
-          One-shots are snack-sized adventures that allow you to get right into
-          the action of Dungeons & Dragons without the baggage that comes with
-          an extended campaign. In addition, the self-contained nature of
-          one-shots enables players and Dungeon Masters to more easily
-          experiment with the breadth of options D&D provides without
-          commitment. Maybe you want to play as a party of meme characters,
-          complete with janky multiclassing shenanigans? Or perhaps your DM
-          wants to try their hardest to brutally kill the characters one by one?
-          Whatever avenue you're looking to explore with your one-shot, it can
-          make for a fun night of gaming!
-        </p>
-        <p class="para-text">
-          In this article, we're paying homage to one-shot adventures in D&D.
-          We'll discuss why we love them, some tips for running them, and our
-          favorite one-shot adventures!
-        </p>
+    <main>
 
-        <div class="stand-out">
-          <div class="so-h2">
-            <h2>What Is a One-Shot?</h2>
-          </div>
-          <p>
-            One-shots are D&D adventures that can be finished in one 3-4 hour
-            session. These adventures are more streamlined because of the tight
-            turnaround time. One-shot adventures are usually meant to be
-            self-contained, not needing any context from outside of the
-            adventure to be run.
-          </p>
+        <section class="new-cards-background">
+            <div class="container">
+                 <div class="cards-content">
+                    <div class="card card-hv">
+                        <div class="card-content__image">
+                            <img src="./images/card-character.svg" alt="A Dog">
+                        </div>
+                            <div class="card-content__text">
+                                <h2 class="card-content__heading">Create a character!</h2>
+                                <p>Get started with your very first character.</p>
+                        </div>
+                    </div>
+                    <div class="card card-hv">
+                        <div class="card-content__image">
+                            <img src="./images/card-party.svg" alt="A Dog">
+                        </div>
+                            <div class="card-content__text">
+                                <h2 class="card-content__heading">Form a party!</h2>
+                                <p>Connect with friends and team up.</p>
+                        </div>
+                    </div>
+                    <div class="card card-hv">
+                        <div class="card-content__image">
+                            <img src="./images/card-items.svg" alt="A Dog">
+                        </div>
+                            <div class="card-content__text">
+                                <h2 class="card-content__heading">Find an item!</h2>
+                                <p>Add fantastic items too boost your character.</p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="image-content">
+
+            <div class="container">
+    
+                <div class="image-content__image">
+                    <img src="images/about.jpg" alt="A nice dock on the a lake">
+    
+                </div>
+                <div class="image-content__content">
+                     <h2 class="image-content__title">About Adventure Co.</h2>
+                     <p class="image-content__text">Adventure Co. is a cooperative storytelling companion for D&D that uses your imagination and invites you to adventure, battle, discover, and complete epic quests with your friends through an immersive RPG experience. Your first adventure is only a dice roll away!
+                    </p>
+                     <a href="" class="btn btn-split">Learn More</a>  
+                    </div>
+
+
+                </div>
+
+
+                <section class="card-group">
+
+                    <div class="container">
+                
+                            <h2 class="title">Recent Blog Posts</h1>
+                             <div class="cards-content">
+                    
+                                        <a href="blog-post.html" class="alink">
+
+                                            <div class="blog-card card-hv">
+                                                <h2 class="card-content__heading">One-Shot Adventures: What They Are, Why We Love Them, and Recommendations</h2>
+                                                <p>By Mike Bernier</p>
+                                                                                </div>
+                                        </a>
+
+                                    
+                                        <div class="blog-card card-hv">
+                                            <h2 class="card-content__heading">5 Tips for Running the Death House One-Shot From Curse of Strahd
+                                            </h2>
+                                            <p>by Jeremy Blum</p>
+                                    </div>
+
+                                    
+                                        <div class="blog-card card-hv">
+                                            <h2 class="card-content__heading">How to Mashup D&D Sourcebooks for Versatile Storytelling
+                                            </h2>
+                                            <p>by Riley Silverman</p>
+                                    </div>
+
+            
+            
+                            </div>
+            
+            
+            
+                    </div>
+                </section>
+
+                <a id="toTopButton" href="#top">To Top</a>
+            
+
+        
+
+    
+    </main>
+    
+
+    <footer class="footer">
+        <div class="container">
+
+            <a href="#" class="footer__logo">
+                <img src="images/logo-ac.svg" alt="A logo-ac" class="logo-image">
+            </a>
+           
+   
+           <nav class="footer__nav">
+               <ul class="footer__list">
+                   <li><a href="#" class="footer__link">About</a></li>
+                   <li><a href="#" class="footer__link">Blog</a></li>
+                   <li><a href="#" class="footer__link">Download</a></li>
+                   <li><a href="#" class="footer__link">Sign Up</a></li>
+               </ul>
+           </nav>
+   
+           <small class="footer__copyright">
+               &copy; 2022 Adventure Co-Operative
+               
+               <a class="footer__link" href="#">Privacy Policy</a>
+               <a class="footer__link" href="#">Terms of Service</a>
+               
+            </small>
         </div>
-      </div>
-    </div>
-  </body>
-  <footer class="footer">
-    <div class="container">
-      <a href="#" class="footer__logo">
-        <img src="images/logo-ac.svg" alt="A logo-ac" class="logo-image" />
-      </a>
-
-      <nav class="footer__nav">
-        <ul class="footer__list">
-          <li><a href="#" class="footer__link">About</a></li>
-          <li><a href="#" class="footer__link">Blog</a></li>
-          <li><a href="#" class="footer__link">Download</a></li>
-          <li><a href="#" class="footer__link">Sign Up</a></li>
-        </ul>
-      </nav>
-
-      <small class="footer__copyright">
-        &copy; 2022 Adventure Co-Operative
-
-        <a class="footer__link" href="#">Privacy Policy</a>
-        <a class="footer__link" href="#">Terms of Service</a>
-      </small>
-    </div>
-  </footer>
+   </footer>
+   
+    
+</body>
 </html>
